@@ -16,7 +16,7 @@
     --r:18px; --maxw:1180px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
+  html{scroll-behavior:smooth;overflow-x:hidden}
   body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:inherit;text-decoration:none}
   h1,h2,h3{font-family:'Inter Tight','Inter',sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.02}
@@ -43,7 +43,7 @@
   .navlinks .tag{font-size:9px;background:var(--accent);color:var(--accent-ink);padding:2px 6px;border-radius:6px;margin-left:6px;font-weight:800;vertical-align:middle}
   .menubtn{display:none;background:none;border:1px solid var(--line);color:#fff;width:44px;height:44px;border-radius:12px;cursor:pointer;font-size:20px}
 
-  .hero{padding:160px 0 90px;position:relative}
+  .hero{padding:160px 0 90px;position:relative;overflow:hidden}
   .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
   .hero h1{font-size:clamp(54px,8.5vw,118px);font-weight:900}
   .hero h1 .serif{font-size:.92em;display:inline-block;color:var(--muted2)}
@@ -132,7 +132,7 @@
   .fa p{padding:0 24px 22px;font-size:15px}
   .fitem.open .pl{transform:rotate(45deg)}
 
-  .final{text-align:center;padding:120px 0}
+  .final{text-align:center;padding:120px 0;position:relative;overflow:hidden}
   .final h2{font-size:clamp(40px,6vw,82px)}
   .final p{color:var(--muted2);font-size:19px;max-width:620px;margin:24px auto 34px}
 
